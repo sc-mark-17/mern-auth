@@ -53,14 +53,14 @@ render() {
     const { errors } = this.state;
 
 return (
-      <div className="container">
-        <div className="row">
+      <div className="container" style={{position: 'relative', top:'100px', width: '100%'}}>
+        <div>
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
-            <div className="col s12" style={{ paddingLeft: "11.250px" }}>
+            <div className="col s12">
               <h4>
                 <b>Register</b> below
               </h4>
