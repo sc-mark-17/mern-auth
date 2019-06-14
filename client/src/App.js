@@ -44,6 +44,7 @@ class App extends Component {
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>
+            <hr/>
             <Footer />
           </div>
         </Router>
